@@ -15,7 +15,6 @@ const { prompt, print } = require('./prompt-print');
  */
 let flag = 0;
 let count = 0;
-
 print('What do you want to say to Grandma!!');
 while (flag === 0) {
   const message = prompt();
